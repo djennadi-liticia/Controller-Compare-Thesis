@@ -98,7 +98,7 @@ void scan_network(uint8_t nodes[], node_t *head)
    int node_id = nodes[3];
    int network_size = nodes[9];
    
-   node_t *new_node;
+ node_t *new_node;
  new_node = (node_t *) malloc(sizeof(node_t));
  new_node->data = node_id;
  new_node->next= head;

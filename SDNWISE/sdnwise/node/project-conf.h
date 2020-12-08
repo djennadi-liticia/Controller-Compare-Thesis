@@ -14,7 +14,7 @@
 #define BATTERY_ENABLED 0
 /*************************************************************************/
 #undef NETSTACK_CONF_RDC
-#define NETSTACK_CONF_RDC     contikimac_driver /*enable contikimac_driver for energy efficiency,
+#define NETSTACK_CONF_RDC     contikimac_driver /*enable contikimac_driver for microSDN,
  * otherwise set to nullrdc_driver*/
 
 #endif // PROJECT_CONF_H_
